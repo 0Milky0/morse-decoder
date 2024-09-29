@@ -59,4 +59,6 @@ function decode(expr) {
     // console.log(text)
     return text
 }
-module.exports = decode;
+module.exports = {
+decode
+}
